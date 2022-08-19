@@ -1,12 +1,20 @@
 html {
     background-image: url(../IMAGENS/fundo.jpg);
 
+
 }
 
 body {
-    background-color: black;
+    padding-left: 100px;
     color: aliceblue;
-    width: 1900px;
+    width: 50%;
+    display: flex;
+    display: inline-table;
+    justify-items: center;
+    position: relative;
+}
+.title-1{
+    background-color: antiquewhite;
     display: flex;
     display: inline-block;
 
@@ -18,8 +26,8 @@ body {
     border-style: ridge;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
-}
+    display: inline-flex;
+    }
 
 .title {
     padding-left: 720px;
@@ -55,7 +63,7 @@ body {
     padding-left: 10px;
     width: 10%;
     height: 10%;
-    
+
 }
 
 .img-prince {
@@ -71,17 +79,10 @@ body {
     display: inline-block;
     justify-content: center;
 }
-.descricao-jg{
+
+.descricao-jg {
     display: flex;
     display: inline-block;
-   
+
 
 }
- 
- .grow-1{
-    flex-grow: 1;
-       
- }
- .shrink-1{
-    
- }

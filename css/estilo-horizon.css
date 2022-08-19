@@ -1,0 +1,65 @@
+html {
+    background-image: url(../IMAGENS/fundo.jpg);
+}
+.container {
+    padding-left: 200px;
+    max-width: 1500px;
+    display: grid;
+    grid: "cabecalho cabecalho cabecalho" 100px "nevegacao-esquerda principal nevegacao-direita" 1000px "contato contato contato" 100px / 200px auto 200px
+}
+.cabecalho {
+    background-color: rgb(138, 248, 138);
+    grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.nevegacao-esquerda {
+    background-color: rgb(255, 255, 255);
+    grid-area: nevegacao-esquerda;
+    border-style:  double;
+    
+}
+.principal {
+    background-color: rgb(255, 255, 255);
+    grid-area: principal;
+}
+.nevegacao-direita {
+    background-color: rgb(255, 255, 255);
+    grid-area: nevegacao-direita;
+    border-style:  double;
+}
+.contato {
+    background-color: red;
+    grid-area: contato;
+}
+.logo {
+    width: 60px;
+    padding-left: 200px;
+}
+.titulo {
+    padding-left: 300px;
+    font-size: 50px;
+}
+.ico-reder-you {
+    padding-left: 300px;
+   
+}
+.ico-reder-ins {
+    padding-left: 50px;
+}
+.capa{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+}
+.conteudo{
+   display: flex;
+}
+.descricao{
+padding-left: 80px;
+   width: 500px;
+}
+.descricao p{
+   font-size: 20px;
+}
