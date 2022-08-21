@@ -8,10 +8,9 @@ body {
     max-width: 1500px;
     display: grid;
     grid: "cabecalho cabecalho cabecalho" 100px
-          "nevegacao-esquerda principal nevegacao-direita" 2500px
+          "nevegacao-esquerda principal nevegacao-direita" 2600px
           "contato contato contato" 100px 
       / 250px auto 250px;
-
 }
 
 .cabecalho {
