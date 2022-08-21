@@ -99,3 +99,18 @@ body {
 .dow{
         padding: 10px 220px  ;
 }
+
+.mini-jogo{
+    /* background-color: #c7c3c3; */
+    border-style: double;
+    padding-top: 10px;
+}
+.mini-capa{
+    padding-left: 10px;
+    width: 220px;
+    height: 250px;
+}
+.mini-jogo h3{
+    padding-left: 20px;
+    font-size: 25px;
+}
