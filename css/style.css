@@ -1,88 +1,108 @@
-html {
-    background-image: url(../IMAGENS/fundo.jpg);
-
-
-}
-
 body {
-    padding-left: 100px;
-    color: aliceblue;
-    width: 50%;
-    display: flex;
-    display: inline-table;
-    justify-items: center;
-    position: relative;
+    background-image: url(../IMAGENS/fundo.jpg);
+    
 }
-.title-1{
-    background-color: antiquewhite;
-    display: flex;
-    display: inline-block;
 
+.container {
+    padding-left: 200px;
+    max-width: 1500px;
+    display: grid;
+    grid: "cabecalho cabecalho cabecalho" 100px
+          "nevegacao-esquerda principal nevegacao-direita" 2500px
+          "contato contato contato" 100px 
+      / 250px auto 250px;
 
 }
 
 .cabecalho {
-    background-color: rgb(15, 236, 81);
-    border-style: ridge;
-    border-radius: 5px;
+    background-color: rgb(138, 248, 138);
+    grid-area: cabecalho;
     display: flex;
-    display: inline-flex;
-    }
+    align-items: center;
+    padding-left: 30px;
+}
 
-.title {
-    padding-left: 720px;
+.nevegacao-esquerda {
+    background-color: #f7f7f7;
+    grid-area: nevegacao-esquerda;
+    border-style: double;
+
+}
+
+.principal {
+    
+    background-color: #f7f7f7;
+    grid-area: principal;
+    border-style: double;
+    
+
+}
+
+.nevegacao-direita {
+    background-color: #f7f7f7;
+    grid-area: nevegacao-direita;
+    border-style: double;
+}
+
+.contato {
+    background-color: red;
+    grid-area: contato;
+    border-style: double;
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    display: inline-block;
-    padding-left: 15px;
+    width: 60px;
+    padding-left: 200px;
+}
+
+.titulo {
+    padding-left: 300px;
+    font-size: 50px;
+}
+
+.ico-reder-you {
+    padding-left: 300px;
 
 }
 
 .ico-reder-ins {
-    width: 50px;
-    height: 50px;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
 }
 
-.ico-reder-you {
-    width: 50px;
-    height: 50px;
-    padding-left: 600px;
-    padding-top: 30px;
+.capa {
+    width: 300px;
+    height: 400px;
+    padding: 30px;
 }
 
-.post-capa {
+.conteudo {
+display: flex;
+font-size: 20px;
+box-shadow: 10px 10px 10px ;
+
+}
+
+.descricao {
+    padding-left: 80px;
+    width: 500px;
+}
+
+.descricao p {
+    font-size: 20px;
+}
+
+.informacao {
+    font-size: 24px;
+}
+
+.baixar {
     display: flex;
-    display: inline-block;
-    padding-left: 10px;
-    width: 10%;
-    height: 10%;
-
+    border-radius: 15px;
+    background-color: green;
+    font-size: 50px;
+    width: 1000px;
+    height: 200px;;
 }
-
-.img-prince {
-    width: 150px;
-    height: 40px;
-    display: flex;
-    display: inline-block;
-    justify-items: center;
-    padding: 5px;
-}
-
-.lista-jogos {
-    display: inline-block;
-    justify-content: center;
-}
-
-.descricao-jg {
-    display: flex;
-    display: inline-block;
-
-
+.dow{
+        padding: 10px 220px  ;
 }

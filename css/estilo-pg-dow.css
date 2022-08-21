@@ -6,7 +6,10 @@ body {
     padding-left: 200px;
     max-width: 1500px;
     display: grid;
-    grid: "cabecalho cabecalho cabecalho" 100px "nevegacao-esquerda principal nevegacao-direita" 1500px "contato contato contato" 100px / 250px auto 250px;
+    grid: "cabecalho cabecalho cabecalho" 100px 
+          "nevegacao-esquerda principal nevegacao-direita" 1600px 
+          "contato contato contato" 100px
+           / 250px auto 250px;
 
 }
 
