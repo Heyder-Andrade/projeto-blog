@@ -5,10 +5,10 @@ body {
 
 .container {
     padding-left: 200px;
-    max-width: 1500px;
+    max-width: 1000px;
     display: grid;
     grid: "cabecalho cabecalho cabecalho" 100px
-          "nevegacao-esquerda principal nevegacao-direita" 2600px
+          "nevegacao-esquerda principal nevegacao-direita" 1000px
           "contato contato contato" 100px 
       / 250px auto 250px;
 }

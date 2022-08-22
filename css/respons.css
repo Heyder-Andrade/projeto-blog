@@ -1,23 +1,57 @@
-@media (max-width: 576px){}
+@media (max-width: 1720px) {
 
+    .container {
+        padding-left: 50px;
+        max-width: 200px;
+        display: grid;
+        grid: "cabecalho cabecalho cabecalho" 100px 
+        "nevegacao-esquerda principal nevegacao-direita" 2110px
+         "contato contato contato" 100px 
+         / 150px 531px 150px;
 
-/* 
-// dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px) */
+    }
 
-@media (max-width: 576px) {  }
+    .cabecalho {
+        width: 800px;
 
-/* // dispositivos pequenos (celulares em posição paisagem, menos de 768px) */
+    }
 
-@media (max-width: 768px) {  }
+    .logo {
+        width: 50px;
+    }
 
-/* // dispositivos médios (tablets, menos de 992px) */
+    .titulo {
+        font-size: 24px;
+        padding-left: 20px;
+    }
 
-@media (max-width: 992px) {  }
+    .ico-reder-you {
+        padding-left: 20px;
+    }
 
-/* // dispositivos grandes (desktops, menos de 1200px) */
+        .mini-capa {
+        padding-left: 10px;
+        width: 80px;
+        height: 120px;
+    }
 
-@media (max-width: 1200px) {  }
+    .mini-jogo h3 {
+        padding-left: 20px;
+        font-size: 10px;
+    }
 
-/* // dispositivos extra grandes (desktops grandes) */
+   .conteudo p{
+    background-color: aqua;
+    font-size: 15px;
+       }
+.downs{
+    display: none;
+}
+   .capa{
+    
+    padding-top: 100px;
+    width: 150px;
+    height: 220px;
+   }
 
-/* // 1200px ou mais, não tem breakpoint */
+}
