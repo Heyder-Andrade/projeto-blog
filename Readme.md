@@ -1,7 +1,7 @@
 # Meu Projeto Blog de Download em Andamento
  Um projeto  de um site para download de jogos, filmes e series🎮🖥🎥
 
-[<img src="./animacao.gif" alt="projeto da site de download">]
+![texto-alternativo](./Animacao.gif)
 
 
 

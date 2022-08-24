@@ -1,6 +1,64 @@
 @media (max-width: 1720px) {
 
     .container {
+        padding-left: 80px;
+        max-width: 200px;
+        display: grid;
+        grid: "cabecalho cabecalho cabecalho" 100px 
+        "nevegacao-esquerda principal nevegacao-direita" 2110px
+         "contato contato contato" 100px 
+         / 150px 531px 150px;
+
+    }
+
+    .cabecalho {
+        width: 800px;
+
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .titulo {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    .ico-reder-you {
+        padding-left: 20px;
+    }
+
+        .mini-capa {
+        padding-left: 10px;
+        width: 80px;
+        height: 120px;
+    }
+
+    .mini-jogo h3 {
+        padding-left: 20px;
+        font-size: 10px;
+    }
+
+   .conteudo p{
+    background-color: aqua;
+    font-size: 15px;
+       }
+.downs{
+    display: none;
+}
+   .capa{
+    
+    padding-top: 100px;
+    width: 150px;
+    height: 220px;
+   }
+
+}
+
+@media (max-width: 900px){
+
+    .container {
         padding-left: 50px;
         max-width: 200px;
         display: grid;
